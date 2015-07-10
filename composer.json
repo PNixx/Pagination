@@ -1,0 +1,29 @@
+{
+	"name": "pnixx/pagination",
+	"type": "library",
+	"description": "Foundation Zurb Pagination Component for PHP 5.4",
+	"homepage": "https://github.com/PNixx/Pagination",
+	"keywords": [
+		"pagination",
+		"paginator",
+		"foundation"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sergey Odintsov",
+			"email": "nixx.dj@gmail.com",
+			"homepage": "http://pnixx.ru",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"PNixx\\Pagination\\": ""
+		}
+	},
+	"minimum-stability": "dev"
+}
